@@ -1,6 +1,6 @@
 ##############################
-# UNPLY-DDOS MODIFIED BY @h4cker_2097  #
-# CREDIT - @h4cker_2097        #
+# UNPLY-DDOS MODIFIED BY Codex #
+# CREDIT - Codex              #
 ##############################
 
 import socket
@@ -751,8 +751,8 @@ CLEAR   ► CLEAR TERMINAL
 
 def login():
     clear()
-    user = "h4cker_2097"
-    passwd = "@h4cker_2097"
+    user = "codex"
+    passwd = "iloveanime"
     username = input("⚡ User: ")
     password = getpass.getpass(prompt='⚡ Pass: ')
     if username != user or password != passwd:
@@ -760,7 +760,7 @@ def login():
         print("😈BOOM NOW ENJOY THE GAME...")
         sys.exit(1)
     elif username == user and password == passwd:
-        print("😈Welcome to @h4cker_2097")
+        print("😈Welcome to Codex")
         time.sleep(0.3)
         ascii_vro()
         main()
